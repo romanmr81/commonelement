@@ -2,20 +2,12 @@
 
 int main() {
 
-	//defining the array
-	int array1[10], array2[10];
-	std::cout << "Enter list 1: ";
-	//first array
-	for (int i = 0; i < 10; ++i) {
-		std::cin >> array1[i];
-	}
-	//second array
-	std::cout << "Enter list 2: ";
-	for (int i = 0; i < 10; ++i) {
-		std::cin >> array2[i];
-	}
+	//declare the array1 and array2
+	int array1[10] = { 4, 2, 3, 10, 3, 34, 35, 67, 3, 1 };
+	int array2[10] = { 8, 5, 10, 1, 6, 16, 61, 9, 11, 2 };
+
 	std::cout << "The common elements are: ";
-	
+
 	//finding common elements
 	for (int i = 0; i < 10; ++i) {
 
